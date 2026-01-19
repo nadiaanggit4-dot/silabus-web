@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Math Tutoring Algonova</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f8fafc;
+        }
+        .header-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
+        }
+        .card-shadow {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+        }
+        .timeline-dot {
+            position: relative;
+        }
+        .timeline-dot::before {
+            content: '';
+            position: absolute;
+            left: -25px;
+            top: 10px;
+            width: 12px;
+            height: 12px;
+            background-color: #3b82f6;
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+        .preview-glow {
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.1);
+        }
+    </style>
+</head>
+<body class="text-slate-900 antialiased">
+
+    <!-- Hero Header -->
+    <header class="header-gradient text-white py-16 px-6 text-center rounded-b-[3rem] shadow-2xl">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">Program Math Tutoring Algonova</h1>
+            <p class="text-blue-100 text-lg md:text-xl font-medium max-w-2xl mx-auto">
+                Membangun fondasi matematika yang kokoh melalui pendekatan visual, konkret, dan menyenangkan.
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 -mt-10 mb-20">
+        
+        <!-- Fase Overview Section -->
+        <section class="bg-white rounded-3xl p-8 md:p-12 card-shadow border border-slate-100">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-12 border-b border-slate-100 pb-8">
+                <div class="space-y-2">
+                    <span class="inline-block px-4 py-1.5 bg-blue-100 text-blue-700 rounded-full text-xs font-bold uppercase tracking-widest text-center">Kurikulum Level 1</span>
+                    <h2 class="text-3xl font-extrabold text-slate-800 tracking-tight">Fase 1: Fondasi Bilangan</h2>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="text-right hidden md:block">
+                        <p class="text-sm text-slate-400 font-medium tracking-wide">Total Pembelajaran</p>
+                        <p class="text-xl font-bold text-slate-800">15 Sesi Intensif</p>
+                    </div>
+                    <div class="h-12 w-12 bg-orange-500 rounded-2xl flex items-center justify-center text-white text-2xl shadow-lg shadow-orange-200">
+                        🔢
+                    </div>
+                </div>
+            </div>
+
+            <!-- Learning Path / Syllabus -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Timeline Syllabus -->
+                <div class="lg:col-span-7 space-y-8 pl-8 border-l-2 border-slate-100 relative text-left">
+                    <h3 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-3">
+                        <span class="p-2 bg-blue-50 rounded-lg text-blue-600 text-left">📍</span>
+                        Fokus Utama Pembelajaran
+                    </h3>
+                    
+                    <div class="space-y-12">
+                        <!-- Fokus Bilangan -->
+                        <div class="timeline-dot">
+                            <h4 class="font-bold text-blue-600 uppercase text-xs tracking-widest mb-3">Fokus: Bilangan & Nilai Tempat</h4>
+                            <ul class="space-y-3 text-slate-600 font-medium">
+                                <li class="flex items-start gap-3">
+                                    <span class="w-12 text-[10px] bg-slate-100 rounded py-0.5 text-center text-slate-500 font-bold shrink-0">Sesi 1-3</span>
+                                    <span>Memahami Bilangan 1-100, Nilai Tempat (Puluhan & Satuan), dan Bilangan Sampai 1000 (RPS)</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Fokus Penjumlahan -->
+                        <div class="timeline-dot">
+                            <h4 class="font-bold text-emerald-600 uppercase text-xs tracking-widest mb-3">Fokus: Operasi Penjumlahan</h4>
+                            <ul class="space-y-3 text-slate-600 font-medium">
+                                <li class="flex items-start gap-3">
+                                    <span class="w-12 text-[10px] bg-emerald-50 rounded py-0.5 text-center text-emerald-600 font-bold shrink-0">Sesi 4-5</span>
+                                    <span>Fondasi & Aplikasi Penjumlahan Tanpa Menyimpan</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="w-12 text-[10px] bg-emerald-50 rounded py-0.5 text-center text-emerald-600 font-bold shrink-0">Sesi 8-9</span>
+                                    <span>Fondasi & Aplikasi Penjumlahan Dengan Menyimpan</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Fokus Pengurangan -->
+                        <div class="timeline-dot">
+                            <h4 class="font-bold text-orange-600 uppercase text-xs tracking-widest mb-3">Fokus: Operasi Pengurangan</h4>
+                            <ul class="space-y-3 text-slate-600 font-medium">
+                                <li class="flex items-start gap-3">
+                                    <span class="w-12 text-[10px] bg-orange-50 rounded py-0.5 text-center text-orange-600 font-bold shrink-0">Sesi 6-7</span>
+                                    <span>Fondasi & Aplikasi Pengurangan Tanpa Meminjam</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="w-12 text-[10px] bg-orange-50 rounded py-0.5 text-center text-orange-600 font-bold shrink-0">Sesi 10-11</span>
+                                    <span>Fondasi & Aplikasi Pengurangan Dengan Meminjam</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Fokus Perkalian & Pembagian -->
+                        <div class="timeline-dot">
+                            <h4 class="font-bold text-purple-600 uppercase text-xs tracking-widest mb-3">Fokus: Perkalian & Pembagian</h4>
+                            <ul class="space-y-3 text-slate-600 font-medium">
+                                <li class="flex items-start gap-3">
+                                    <span class="w-12 text-[10px] bg-purple-50 rounded py-0.5 text-center text-purple-600 font-bold shrink-0">Sesi 12-13</span>
+                                    <span>Pengenalan Perkalian Dasar (2, 5, dan 10)</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="w-12 text-[10px] bg-purple-50 rounded py-0.5 text-center text-purple-600 font-bold shrink-0">Sesi 14-15</span>
+                                    <span>Konsep Pembagian (Sharing Models & Kebalikan Perkalian)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side Info -->
+                <div class="lg:col-span-5 space-y-6">
+                    <!-- Achievement Card -->
+                    <div class="bg-blue-50 rounded-3xl p-6 border border-blue-100">
+                        <h4 class="font-bold text-blue-800 mb-4 flex items-center gap-2 text-sm md:text-base">
+                            ✨ Hasil Belajar Fase 1
+                        </h4>
+                        <div class="space-y-4">
+                            <div class="flex gap-4">
+                                <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center shrink-0">✅</div>
+                                <p class="text-sm font-semibold text-blue-900 leading-tight text-left">Penguasaan Konsep Bilangan & Nilai Tempat</p>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center shrink-0">✅</div>
+                                <p class="text-sm font-semibold text-blue-900 leading-tight text-left">Kemahiran Operasi (+/-) Simpan & Pinjam</p>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center shrink-0">✅</div>
+                                <p class="text-sm font-semibold text-blue-900 leading-tight text-left">Pemahaman Logika Dasar Kali & Bagi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Readiness / Transition Checklist -->
+                    <div class="bg-slate-900 text-white rounded-3xl p-6 shadow-xl sticky top-6">
+                        <h4 class="font-bold text-white mb-4 flex items-center gap-2">
+                            🚀 Kesiapan Naik Level
+                        </h4>
+                        <p class="text-xs text-slate-400 mb-6 font-medium leading-relaxed text-left">
+                            Kriteria untuk melanjutkan ke Fase 2:
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3">
+                                <div class="mt-1 h-2 w-2 rounded-full bg-orange-500"></div>
+                                <p class="text-xs font-medium text-left">Assessment Penguasaan &ge; 70%</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="mt-1 h-2 w-2 rounded-full bg-orange-500"></div>
+                                <p class="text-xs font-medium text-left">Fact Fluency (+/-) Angka 1-20</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="mt-1 h-2 w-2 rounded-full bg-orange-500"></div>
+                                <p class="text-xs font-medium text-left">Otomatisasi Perkalian 2, 5, 10</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="mt-1 h-2 w-2 rounded-full bg-orange-500"></div>
+                                <p class="text-xs font-medium text-left">Stamina Belajar 90 Menit Terjaga</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 pt-6 border-t border-slate-800">
+                            <p class="text-[10px] text-slate-500 italic leading-normal text-center">
+                                *Tersedia sesi remedial jika fondasi belum kokoh.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Preview Fase 2 Section -->
+            <div class="mt-16 pt-12 border-t border-slate-100">
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-[2.5rem] p-8 md:p-10 preview-glow border border-blue-100 relative overflow-hidden text-left">
+                    <div class="absolute top-0 right-0 p-8 opacity-10">
+                        <svg class="w-32 h-32 text-blue-600" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg>
+                    </div>
+                    
+                    <div class="relative z-10">
+                        <span class="inline-block px-4 py-1 bg-white text-indigo-600 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-sm mb-4">Coming Soon</span>
+                        <h3 class="text-2xl font-extrabold text-slate-800 mb-2 tracking-tight uppercase text-left">Preview Fase 2: Operasi Hitung Lanjut</h3>
+                        <p class="text-slate-500 text-sm mb-8 font-medium">Melangkah lebih jauh ke dunia angka yang lebih menantang (Sesi 16-30).</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                            <div class="bg-white/60 backdrop-blur p-4 rounded-2xl border border-white/80">
+                                <div class="text-xs font-bold text-indigo-500 mb-1">Sesi 16-20</div>
+                                <div class="text-sm font-bold text-slate-700">Perkalian Lanjutan</div>
+                            </div>
+                            <div class="bg-white/60 backdrop-blur p-4 rounded-2xl border border-white/80">
+                                <div class="text-xs font-bold text-indigo-500 mb-1">Sesi 21-25</div>
+                                <div class="text-sm font-bold text-slate-700">Pembagian Lanjutan</div>
+                            </div>
+                            <div class="bg-white/60 backdrop-blur p-4 rounded-2xl border border-white/80">
+                                <div class="text-xs font-bold text-indigo-500 mb-1">Sesi 26-28</div>
+                                <div class="text-sm font-bold text-slate-700">Operasi Campuran</div>
+                            </div>
+                            <div class="bg-white/60 backdrop-blur p-4 rounded-2xl border border-white/80">
+                                <div class="text-xs font-bold text-indigo-500 mb-1">Sesi 29-30</div>
+                                <div class="text-sm font-bold text-slate-700">Final Assessment 2</div>
+                            </div>
+                        </div>
+                        
+                        <p class="mt-8 text-center text-xs font-bold text-indigo-400 animate-pulse">
+                            Siap untuk tantangan berikutnya? Pertahankan semangat belajarnya! 🚀
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Branding -->
+        <footer class="mt-12 text-center text-slate-400">
+            <p class="text-sm font-semibold tracking-wide uppercase">Algonova Math Tutoring &copy; 2024</p>
+            <p class="text-xs mt-1 italic">Menciptakan Fondasi, Membangun Masa Depan</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
